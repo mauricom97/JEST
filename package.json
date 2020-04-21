@@ -1,0 +1,22 @@
+{
+  "name": "javascript-jest",
+  "version": "1.0.0",
+  "description": "testes usando jest",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --watchAll --logHeapUsage --coverage"
+  },
+  "keywords": [
+    "jest"
+  ],
+  "author": "Mauricio Nunes",
+  "license": "ISC",
+  "devDependencies": {
+    "jest-cli": "^25.4.0"
+  },
+  "jest": {
+    "testEnvironment": "node",
+    "coverageReporters": ["lcov"],
+    "coverageDirectory": "./resultado"
+  }
+}
